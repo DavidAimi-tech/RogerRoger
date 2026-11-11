@@ -126,4 +126,3 @@ git clone https://github.com/DavidAimi-tech/roger-roger.git
 
 ## License
 
-Add your license here (for example MIT). Check the licenses of any third-party art or audio before publishing.
