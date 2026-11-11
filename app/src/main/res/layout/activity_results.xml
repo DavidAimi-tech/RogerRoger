@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_portrait"
+    android:gravity="center"
+    android:padding="32dp">
+
+    <TextView
+        android:id="@+id/txtOutcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pixel_regular"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtStats"
+        android:layout_width="250dp"
+        android:layout_height="337dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/war_report"
+        android:fontFamily="@font/pixel_regular"
+        android:gravity="center"
+        android:paddingStart="24dp"
+        android:paddingTop="64dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="24dp"
+        android:textColor="#FFFFFF"
+        android:lineSpacingExtra="2dp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="6sp"
+        app:autoSizeMaxTextSize="11sp" />
+
+    <TextView
+        android:id="@+id/btnReplay"
+        android:layout_width="221dp"
+        android:layout_height="64dp"
+        android:background="@drawable/btn_again"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/btnMainMenu"
+        android:layout_width="221dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/btn_exit"
+        android:clickable="true"
+        android:focusable="true"
+        tools:ignore="SpeakableTextPresentCheck" />
+</LinearLayout>

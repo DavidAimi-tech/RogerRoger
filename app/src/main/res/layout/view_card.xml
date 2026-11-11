@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/cardArt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:importantForAccessibility="no" />
+
+    <androidx.constraintlayout.widget.Guideline android:id="@+id/gNameTop"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal" app:layout_constraintGuide_percent="0.192" />
+    <androidx.constraintlayout.widget.Guideline android:id="@+id/gNameBottom"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal" app:layout_constraintGuide_percent="0.287" />
+    <androidx.constraintlayout.widget.Guideline android:id="@+id/gStrTop"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal" app:layout_constraintGuide_percent="0.783" />
+    <androidx.constraintlayout.widget.Guideline android:id="@+id/gStrBottom"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="horizontal" app:layout_constraintGuide_percent="0.914" />
+    <androidx.constraintlayout.widget.Guideline android:id="@+id/gLeft"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" app:layout_constraintGuide_percent="0.235" />
+    <androidx.constraintlayout.widget.Guideline android:id="@+id/gRight"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:orientation="vertical" app:layout_constraintGuide_percent="0.815" />
+
+    <TextView
+        android:id="@+id/cardName"
+        style="@style/InkValue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="7sp"
+        app:autoSizeMaxTextSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/gLeft"
+        app:layout_constraintEnd_toEndOf="@id/gRight"
+        app:layout_constraintTop_toTopOf="@id/gNameTop"
+        app:layout_constraintBottom_toBottomOf="@id/gNameBottom" />
+
+    <TextView
+        android:id="@+id/cardStrength"
+        style="@style/InkValue"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="44sp"
+        app:layout_constraintStart_toStartOf="@id/gLeft"
+        app:layout_constraintEnd_toEndOf="@id/gRight"
+        app:layout_constraintTop_toTopOf="@id/gStrTop"
+        app:layout_constraintBottom_toBottomOf="@id/gStrBottom" />
+</androidx.constraintlayout.widget.ConstraintLayout>
