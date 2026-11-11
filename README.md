@@ -127,3 +127,5 @@ git clone https://github.com/DavidAimi-tech/roger-roger.git
   ## License & Copyright
   Copyright © 2026 [David Aimiator]. All rights reserved.
   
+## 📥 Download Game
+[Click here to download the latest APK](https://github.com/DavidAimi-tech/RogerRoger/releases/latest)
