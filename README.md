@@ -124,5 +124,6 @@ git clone https://github.com/DavidAimi-tech/roger-roger.git
 
 **David Aimiator**: [GitHub](https://github.com/DavidAimi-tech)
 
-## License
-
+  ## License & Copyright
+  Copyright © 2026 [David Aimiator]. All rights reserved.
+  
